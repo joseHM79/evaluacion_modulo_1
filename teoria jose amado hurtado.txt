@@ -1,0 +1,38 @@
+1.Define con tus palabras qué es una base de datos. (2 pts)
+Es un conjunto de informacion agrupada de forma logica y/o ordenada.
+
+2.Menciona dos diferencias entre bases de datos relacionales y NoSQL. (2 pts)
+En las relacionales se utilizan tablas para agupar la informnacion en las sql se usan documentos
+En las relacionales se usa relaciones entre las tablas en las nosql no es necesario usa relaciones ya que no se usa tablas.
+
+
+3.Escribe el nombre de dos gestores de bases de datos y un caso de uso de cada uno. (2 pts)
+Con MySQL se puede accededr a los datos mediante instrucciones hacia tablas y relaciones entre ellas. Se puede usar para una escuela primaria.
+Con Mongo se pueded acceder a los datos mediante instrucciones mongo en documentos. se puede usar en apps big data con datos muy cambiables y campos dinamicos
+
+4.¿Qué representa un modelo entidad-relación y qué elementos lo componen? (2 pts)
+Es una representacion grafica de como se relacionana las tablas o entidades en una base relacional, se compone por llaves primarias y llaves foraneas
+
+5 ¿Qué es la cardinalidad en un diagrama ER? Da un ejemplo. (2 pts)
+Define de forma logica cuantas entidades se relacionan en las tablas por ejemplo:
+la relacion uno a uno (1:1), 
+la relacion uno a muchos (1:N), 
+la relacion muchos a muchos (N:M)
+
+6. Explica brevemente qué es la normalización y su objetivo. (2 pts)
+Es la forma de particionar la informacion en campos para ser mas entendible y manejable 
+
+7. ¿Cuál es la diferencia entre una clave primaria y una clave foránea? (2 pts)
+La clave primaria es un identificador unico y principal de una tablas
+La clave foranea es un identificador establece la relaciona en dos tablas
+
+8. Menciona dos funciones de texto en SQL y da un ejemplo de uso. (2 pts)
+LOWER() establece el resultado de la consulta con minusculas
+UPPER()establece el resultado de la consulta con mayusculas
+
+9. ¿Qué hace la función AVG() en SQL? ¿Con qué tipo de datos se usa? (2 pts)
+AVG() calcula el promedio sobre un conjunto de datos sobre un campo entero o real
+
+10 ¿Para qué sirve IS NULL en una consulta SQL? (2 pts)
+Sirve para filtrar en una consulta para seleccionar aquellos registros que tengan el valor null en un campo 
+
